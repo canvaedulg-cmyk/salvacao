@@ -1,0 +1,70 @@
+body {
+  min-height: 100vh;
+  font-family: 'Arial Black', Gadget, sans-serif;
+  background-color: #1a1a1a;
+  background-image: radial-gradient(#333 20%, transparent 20%);
+  background-size: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+
+main a:hover {
+  color: red;
+}
+
+/* ── NAVBAR ── */
+main {
+  width: 100%;
+  background-color: #ffffff;
+  background-image: radial-gradient(#acaaaa 20%, transparent 20%);
+  background-size: 20px 20px;
+  border-bottom: 2px solid #f0c040;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding: 14px 30px;
+  box-sizing: border-box;
+  color: black;
+}
+
+button {
+  background-color: grey;
+  text-decoration: none;
+  border-radius: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  font-size: x-large;
+  width: 300px;
+}
+
+button:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.10);
+
+}
+.oi{
+  background-color: grey;
+  text-decoration: none;
+  border-radius: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  font-size: x-large;
+  width: 300px;
+}

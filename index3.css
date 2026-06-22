@@ -1,0 +1,85 @@
+table {
+    background-color: black;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    background-image: radial-gradient(#333 20%, transparent 20%);
+    background-size: 20px 20px;
+    color: #fff;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffcc00;
+}
+
+table {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #555;
+    text-align: center;
+}
+
+th {
+    background-color: #900;
+    color: white;
+}
+
+.pokemon-name {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+button {
+    background-color: grey;
+    text-decoration: none;
+    border-radius: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    font-size: x-large;
+    width: 300px;
+    text-decoration: none;
+    color: red;
+}
+
+button:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.10);
+
+}
+
+.oi {
+    background-color: grey;
+    text-decoration: none;
+    border-radius: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    font-size: x-large;
+    width: 300px;
+    text-decoration: none;
+}
+button a {
+    text-decoration: none;
+    color: black;
+}
